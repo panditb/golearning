@@ -1,6 +1,8 @@
-Softwares Required
+***Go Consume Rest Module***
+
+# Softwares Required
 1. go
-2. Make 
+2. Make (in ubuntu already available)
 3. git
 
 create module project 
@@ -24,5 +26,14 @@ go run github.com/panditb/golearning
 
 For Cross Flatform we can simply run the Makefile
 
+Below steps how to run in Ubuntu
+1. Get the code for git
+go get -u github.com/panditb/golearning
+
+2. Build 
 make all
+3. Run
+make run
+
+
 
