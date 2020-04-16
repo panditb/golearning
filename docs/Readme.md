@@ -19,7 +19,7 @@
  `go run main.go` \
  `go run github.com/panditb/golearning` 
 5. Passing env variable and RUN  \
- `set url=http://dummy.restapiexample.com/api/v1/employees`
+ `set url=http://dummy.restapiexample.com/api/v1/employees` \
  `go run main.go` 
 
 Note: Code is checking if env is available then use from env variable else fron config file
@@ -30,5 +30,5 @@ Below steps how to run in Ubuntu
    `go get -u github.com/panditb/golearning`
 2. Build  \
   `make all`
-3. Run 
+3. Run  \
  `make run`
