@@ -26,7 +26,7 @@ Note: Code is checking if env is available then use from env variable else fron 
 
 ### For Cross Flatform we can simply run the Makefile
 Below steps how to run in Ubuntu
-1. Clone the code  or if ure using winodws ubunto go to the mounted path where the code exist \n
+1. Clone the code  or if ure using winodws ubunto go to the mounted path where the code exist \
    `git clone https://github.com/panditb/golearning.git`
 2. Get the code for git \
    `go get -u github.com/panditb/golearning`
