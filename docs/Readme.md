@@ -18,6 +18,11 @@
 4. Run \
  `go run main.go` \
  `go run github.com/panditb/golearning` 
+5. Passing env variable and RUN  \
+ `set url=http://dummy.restapiexample.com/api/v1/employees`
+ `go run main.go` 
+
+Note: Code is checking if env is available then use from env variable else fron config file
 
 ### For Cross Flatform we can simply run the Makefile
 Below steps how to run in Ubuntu
