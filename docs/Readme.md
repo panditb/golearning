@@ -13,26 +13,30 @@ go mod init github.com/panditb/golearning <pass ure git hub repo>
 
 2. For configuration using the go lang community Viper plugin you can get from below command
 
-go get github.com/spf13/viper
+`go get github.com/spf13/viper`
 
 3. Build 
-go build config\config.go
-go build main.go
+`go build config\config.go`
+`go build main.go`
 
 4. Run 
-go run main.go
-go run github.com/panditb/golearning
+ `go run main.go`
+ `go run github.com/panditb/golearning`
 
 ### For Cross Flatform we can simply run the Makefile
 
 Below steps how to run in Ubuntu
+
 1. Get the code for git
-go get -u github.com/panditb/golearning
+
+`go get -u github.com/panditb/golearning`
 
 2. Build 
-make all
+
+`make all`
 3. Run
-make run
+
+`make run`
 
 
 
