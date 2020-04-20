@@ -34,3 +34,30 @@ Below steps how to run in Ubuntu
   `make all`
 4. Run  \
  `make run`
+
+### Build Software in Cross Platform from Windows OS
+
+1. Windows Software Build Open Command Prompt \
+
+   `set GOOS=windows` \
+   `set GOARCH=amd64` \
+   `go build -o mainwindows.exe github.com/panditb/golearning` \
+   `mainwindows.exe`
+2. Linux SoftwareBuild Open Command Prompt(cmd) \  
+   
+   `set GOOS=linux` \
+   `set GOARCH=amd64` \
+   `go build -o mainlinux github.com/panditb/golearning` \
+   `./mainlinux` \
+
+3. MacoS  SoftwareBuild Open Command Prompt(cmd) \  
+   `set GOOS=darwin` \
+   `set GOARCH=amd64` \
+   `go build -o mainmacos github.com/panditb/golearning` \
+   `./mainmacos` \   
+
+
+
+
+    
+   
